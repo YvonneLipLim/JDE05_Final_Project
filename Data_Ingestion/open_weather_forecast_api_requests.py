@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import time
 
 # OpenWeatherMap API key
-API_KEY = "ceb3c45468b0de7eedac46058a1746f4"
+API_KEY = "API Key"
 
 # Define Brazilian cities with their coordinates
 CITIES = {
