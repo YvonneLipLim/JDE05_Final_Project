@@ -1,0 +1,105 @@
+﻿database_name,schema_name,object_name,object_type,column_name,data_type,max_length,precision,scale,is_nullable,is_primary_key
+OlistSQLDB,dbo,extcustomers,External Table,customer_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extcustomers,External Table,customer_unique_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extcustomers,External Table,customer_zip_code_prefix,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extcustomers,External Table,customer_city,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extcustomers,External Table,customer_state,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extgeolocation,External Table,geolocation_zip_code_prefix,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extgeolocation,External Table,geolocation_lat,float,8,53,0,True,NO
+OlistSQLDB,dbo,extgeolocation,External Table,geolocation_lng,float,8,53,0,True,NO
+OlistSQLDB,dbo,extgeolocation,External Table,geolocation_state,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extgeolocation,External Table,geolocation_city_final,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorder_items,External Table,order_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorder_items,External Table,order_item_id,int,4,10,0,True,NO
+OlistSQLDB,dbo,extorder_items,External Table,product_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorder_items,External Table,seller_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorder_items,External Table,shipping_limit_date,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,extorder_items,External Table,price,float,8,53,0,True,NO
+OlistSQLDB,dbo,extorder_items,External Table,freight_value,float,8,53,0,True,NO
+OlistSQLDB,dbo,extorder_payments,External Table,order_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorder_payments,External Table,payment_sequential,int,4,10,0,True,NO
+OlistSQLDB,dbo,extorder_payments,External Table,payment_type,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorder_payments,External Table,payment_installments,int,4,10,0,True,NO
+OlistSQLDB,dbo,extorder_payments,External Table,payment_value,float,8,53,0,True,NO
+OlistSQLDB,dbo,extorder_reviews,External Table,review_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorder_reviews,External Table,order_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorder_reviews,External Table,review_score,int,4,10,0,True,NO
+OlistSQLDB,dbo,extorder_reviews,External Table,final_translated_title,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorder_reviews,External Table,final_translated_message,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorder_reviews,External Table,review_creation_date,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,extorder_reviews,External Table,review_answer_timestamp,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,extorders,External Table,order_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorders,External Table,customer_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorders,External Table,order_status,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extorders,External Table,order_purchase_timestamp,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,extorders,External Table,order_approved_at,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,extorders,External Table,order_delivered_carrier_date,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,extorders,External Table,order_delivered_customer_date,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,extorders,External Table,order_estimated_delivery_date,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,extproduct_category,External Table,product_category_name_clean,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extproduct_category,External Table,product_category_name_english_title,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extproducts,External Table,product_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extproducts,External Table,product_category_name,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extproducts,External Table,product_name_length,int,4,10,0,True,NO
+OlistSQLDB,dbo,extproducts,External Table,product_description_length,int,4,10,0,True,NO
+OlistSQLDB,dbo,extproducts,External Table,product_photos_qty,int,4,10,0,True,NO
+OlistSQLDB,dbo,extproducts,External Table,product_weight_g,int,4,10,0,True,NO
+OlistSQLDB,dbo,extproducts,External Table,product_length_cm,int,4,10,0,True,NO
+OlistSQLDB,dbo,extproducts,External Table,product_height_cm,int,4,10,0,True,NO
+OlistSQLDB,dbo,extproducts,External Table,product_width_cm,int,4,10,0,True,NO
+OlistSQLDB,dbo,extsellers,External Table,seller_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extsellers,External Table,seller_zip_code_prefix,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extsellers,External Table,seller_city,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,extsellers,External Table,seller_state,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,customers_view,View,customer_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,customers_view,View,customer_unique_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,customers_view,View,customer_zip_code_prefix,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,customers_view,View,customer_city,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,customers_view,View,customer_state,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,geolocation_view,View,geolocation_zip_code_prefix,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,geolocation_view,View,geolocation_lat,float,8,53,0,True,NO
+OlistSQLDB,dbo,geolocation_view,View,geolocation_lng,float,8,53,0,True,NO
+OlistSQLDB,dbo,geolocation_view,View,geolocation_state,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,geolocation_view,View,geolocation_city_final,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,order_items_view,View,order_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,order_items_view,View,order_item_id,int,4,10,0,True,NO
+OlistSQLDB,dbo,order_items_view,View,product_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,order_items_view,View,seller_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,order_items_view,View,shipping_limit_date,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,order_items_view,View,price,float,8,53,0,True,NO
+OlistSQLDB,dbo,order_items_view,View,freight_value,float,8,53,0,True,NO
+OlistSQLDB,dbo,order_payments_view,View,order_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,order_payments_view,View,payment_sequential,int,4,10,0,True,NO
+OlistSQLDB,dbo,order_payments_view,View,payment_type,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,order_payments_view,View,payment_installments,int,4,10,0,True,NO
+OlistSQLDB,dbo,order_payments_view,View,payment_value,float,8,53,0,True,NO
+OlistSQLDB,dbo,order_reviews_view,View,review_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,order_reviews_view,View,order_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,order_reviews_view,View,review_score,int,4,10,0,True,NO
+OlistSQLDB,dbo,order_reviews_view,View,final_translated_title,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,order_reviews_view,View,final_translated_message,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,order_reviews_view,View,review_creation_date,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,order_reviews_view,View,review_answer_timestamp,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,orders_view,View,order_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,orders_view,View,customer_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,orders_view,View,order_status,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,orders_view,View,order_purchase_timestamp,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,orders_view,View,order_approved_at,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,orders_view,View,order_delivered_carrier_date,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,orders_view,View,order_delivered_customer_date,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,orders_view,View,order_estimated_delivery_date,datetime2,8,27,7,True,NO
+OlistSQLDB,dbo,product_category_view,View,product_category_name_clean,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,product_category_view,View,product_category_name_english_title,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,products_view,View,product_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,products_view,View,product_category_name,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,products_view,View,product_name_length,int,4,10,0,True,NO
+OlistSQLDB,dbo,products_view,View,product_description_length,int,4,10,0,True,NO
+OlistSQLDB,dbo,products_view,View,product_photos_qty,int,4,10,0,True,NO
+OlistSQLDB,dbo,products_view,View,product_weight_g,int,4,10,0,True,NO
+OlistSQLDB,dbo,products_view,View,product_length_cm,int,4,10,0,True,NO
+OlistSQLDB,dbo,products_view,View,product_height_cm,int,4,10,0,True,NO
+OlistSQLDB,dbo,products_view,View,product_width_cm,int,4,10,0,True,NO
+OlistSQLDB,dbo,sellers_view,View,seller_id,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,sellers_view,View,seller_zip_code_prefix,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,sellers_view,View,seller_city,varchar,8000,0,0,True,NO
+OlistSQLDB,dbo,sellers_view,View,seller_state,varchar,8000,0,0,True,NO
